@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --color-Green200(lighter): hsl(148%, 38%, 91%);
+  --color-Green600(medium): hsl(169%, 82%, 27%);
+  --color-Red: hsl(0%, 66%, 54%);
+  --color-White: hsl(0%, 0%, 100%);
+  --color-Grey500(medium): hsl(186%, 15%, 59%);
+  --color-Grey900(darker): hsl(187%, 24%, 22%);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.bod {
+  background-color: lightgreen;
+}
+.contact h1 {
+  padding-bottom: 20px;
+  font-size: larger;
+}
+
+.contact {
+  background-color: white;
+  margin: 40px 20px;
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  gap: 20px;
+}
+.form1 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.form2 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+@media (width>600px) {
+  .form {
+    display: flex;
+    gap: 10px;
+  }
+}
+.mail {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.general {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.general:hover {
+  background-color: lightgreen;
+}
+@media (width>600px) {
+  .que {
+    display: flex;
+    gap: 10px;
+  }
+}
+.support {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.message {
+  width: 100%;
+  resize: none;
+  margin: 25px 0px;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+}
+.message:hover {
+  color: black;
+}
+
+.consent:hover {
+  cursor: pointer;
+}
+
+.submit {
+  width: 100%;
+  color: white;
+  background-color: green;
+  padding: 20px 0;
+  border: none;
+  margin-top: 35px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}

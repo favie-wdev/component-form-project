@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Contact form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bod">
+    <main>
+      <section class="contact">
+        <h1>Contact Us</h1>
+        <form action="">
+          <section class="form">
+            <div>
+              <label for="fname">First Name </label>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                class="form1"
+                placeholder="required"
+              />
+            </div>
+
+            <div>
+              <label for="lname">Last name *</label>
+              <input type="text" name="lname" id="lname" class="form2" />
+            </div>
+          </section>
+
+          <label for="mail">Email Address</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            class="mail"
+            placeholder="required"
+          />
+
+          <label for="radio">Query Type</label>
+          <section class="que">
+            <div class="general">
+              <input type="radio" name="" id="radio1" />
+              <label for="radio1">General Enquiry</label>
+            </div>
+            <div class="support">
+              <input type="radio" name="" id="radio" />
+              <label for="radio">Support Request</label>
+            </div>
+          </section>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              class="message"
+              rows="10px"
+              cols="5px"
+            >
+Hello , I would like to know if you're able to build Shopify e-commerce site. We're starting a business and we're going to use Shopify. But it would be great to work with an agency who specialises in working with it.
+
+           </textarea >
+           
+           
+          </div>
+
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <label for="checkbox" class="consent">
+            I consent to being contacted by the team</label
+          >
+
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <!-- 
+ 
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+ 
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon!
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
